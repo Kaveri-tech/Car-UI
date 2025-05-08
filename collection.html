@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<link rel="stylesheet" href="car_UI.css">
+        <link rel="stylesheet" href="collection.css">
+		<link rel="stylesheet" href="footer.css">
+</head>
+<body>
+   <!-- Start Navbar -->
+   <nav>
+	<div class="container nav-container">
+		<a href="" class="logo"><img src="https://thecarmall.co.in/assets/frontend/library/new-version/assets/images/the-car-mall-logo.png" alt="The Car Mall" itemprop="logo" style="max-width:140px;" /></a>
+		<ul class="nav-links">
+			<li><a href="index.html" style="--i:1;" class="active">Home</a></li>
+			<li><a href="about.html" style="--i:2;">About</a></li>
+			<li><a href="services.html" style="--i:3;">Services</a></li>
+			<li><a href="features.html" style="--i:4;">Features</a></li>
+			<li><a href="contact.html" style="--i:5;">Contact</a></li>
+		</ul>
+		<ul class="social-link">
+			<li><a href="" style="--i:1;"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="" style="--i:2;"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="" style="--i:3;"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+	</div>
+</nav>
+<!-- End Navbar -->
+     <!--................. Start sidebar.................... -->
+	  <div class="sidebar">
+		<a href="index.html">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width: 20px;"><path fill="#ffffff" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>						
+			<p onmouseover="closeForm(),closeStyle(),closeData()">HOME</p></a>
+		<hr />
+		<a href="collection.html">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 15px;"><path fill="#fafafa" d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"/></svg>
+			<br />
+			<p onmouseover="closeForm(),closeStyle(),closeData()">COLLECTION</p></a>
+		</a>
+		<hr />
+		<a href="sell_car.html">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  style="width: 20px;"><path fill="#f7f7f8" d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg><br />
+			<p onmouseover="closeForm(),closeStyle(),closeData()">SELL CAR PORTAL</p>
+		</a>
+		<hr />
+		<a href="#brand">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width: 20px;"><path fill="#f4f5f6" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg><br />
+			<p onmouseover="openForm(),closeStyle(),closeData()">BRANDS</p></a>
+		<hr />
+		<a href="#style">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="width: 23px;"><path fill="#f5f5f5" d="M171.3 96H224v96H111.3l30.4-75.9C146.5 104 158.2 96 171.3 96zM272 192V96h81.2c9.7 0 18.9 4.4 25 12l67.2 84H272zm256.2 1L428.2 68c-18.2-22.8-45.8-36-75-36H171.3c-39.3 0-74.6 23.9-89.1 60.3L40.6 196.4C16.8 205.8 0 228.9 0 256V368c0 17.7 14.3 32 32 32H65.3c7.6 45.4 47.1 80 94.7 80s87.1-34.6 94.7-80H385.3c7.6 45.4 47.1 80 94.7 80s87.1-34.6 94.7-80H608c17.7 0 32-14.3 32-32V320c0-65.2-48.8-119-111.8-127zM434.7 368a48 48 0 1 1 90.5 32 48 48 0 1 1 -90.5-32zM160 336a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><br />
+			<p onmouseover="openStyle(),closeForm(),closeData()">STYLES</p></a>
+		<hr />
+		<a href="#world">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 20px;"><path fill="#f4f5f5" d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/></svg><br />
+			<p onmouseover="openData(),closeForm(),closeStyle()">THE CAR MALL WORLD</p></a>
+		<hr />
+		<a href="insurance.html">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width: 20px;"><path fill="#ffffff" d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V288H216c-13.3 0-24 10.7-24 24s10.7 24 24 24H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM384 336V288H494.1l-39-39c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l80 80c9.4 9.4 9.4 24.6 0 33.9l-80 80c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l39-39H384zm0-208H256V0L384 128z"/></svg><br />
+			<p onmouseover="closeForm(),closeStyle(),closeData()">INSURANCE</p>
+		</a>
+		<hr />
+		<a href="emi.html">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 20px;"><path fill="#f4f5f6" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg><br />
+			<p onmouseover="closeForm(),closeStyle(),closeData()">EMI CALCULATOR</p>
+		</a>
+	</div>
+	
+	<div class="form">
+		<div class="chat-popup" id="myForm">
+			<h1>CARS BY BRAND</h1>
+			<form action="/action_page.php" class="form-container" onmouseleave="closeForm()">
+				<div class="display">
+					<img src="img/22.png">
+					<img src="img/23.png">
+				</div>
+				<hr>
+				<div class="display">
+					<img src="img/24.png">
+					<img src="img/25.png">
+				</div>
+				<hr>
+				<div class="display">
+					<img src="img/26.png">
+					<img src="img/27.png">
+				</div>
+				<hr>
+				<div class="display">
+					<img src="img/28.png">
+					<img src="img/30.png">
+				</div>
+				<hr>
+				<div class="display">
+					<img src="https://w7.pngwing.com/pngs/5/288/png-transparent-mini-cooper-mini-clubman-bmw-car-mini-text-trademark-logo-thumbnail.png">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrVzHMeImTsQ3ShaxfIb9LigpzaoZ8aAqFQ&s">
+				</div>
+			</form>
+		</div>
+	
+		<div class="chat-popup" id="styleForm">
+			<form action="/action_page.php" class="form-container" onmouseleave="closeStyle()">
+				<h1>CARS BY STYLE</h1>
+				<div class="display">
+					<img src="img/29.png">
+					<h2>TRUCK</h2>
+				</div>
+				<hr>
+				<div class="display">
+					<img src="img/29.png">
+					<h2>TRUCK</h2>
+				</div>
+				<hr>
+				<div class="display">
+					<img src="img/29.png">
+					<h2>TRUCK</h2>
+				</div>
+				<hr>
+				<div class="display">
+					<img src="img/29.png">
+					<h2>TRUCK</h2>
+				</div>
+				<hr>
+				<div class="display">
+					<img src="img/29.png">
+					<h2>TRUCK</h2>
+				</div>
+			</form>
+		</div>
+	
+		<div class="chat-popup" id="dataForm">
+			<form action="/action_page.php" class="form-container data" onmouseleave="closeData()">
+				<h1>The Team</h1>
+				<h1>Associates</h1>
+				<h1>The Car Mall World</h1>
+				<h1>Career</h1>
+				<h1>Wallpaper</h1>
+				<h1>Wallpaper About Us</h1>
+			</form>
+		</div>
+	</div>
+	
+		<!-- <button class="back"><i class="fa fa-solid fa-xmark"></i></button> -->
+		<!--.................. End sidebar.................... -->
+       <div class="collection-container">
+            <div class="c_c1">
+				<div style="display: block;">
+					<div class="car_img">
+						<img src="img/2.jpg" alt="">
+					</div>
+					<div class="gray_txt">
+						<h5>Rs.2375000.00</h5><br>
+						<h3>AUDI Q3 35TFSI PREMUIM PLUS</h3><br>
+						<h3>EMI STARTS @ Rs.0</h3>
+						<div style="display: flex; justify-content: space-between; margin: 5px;  gap: 15px;">
+							<div style="display: block; border-right: 1px solid gray;">
+                                  <h4>REG YEAR</h4>
+								  <h4>2017</h4>
+							</div>
+
+							<div style="display: block; border-right: 1px solid gray;">
+								<h4>KMS</h4>
+								<h4>2017</h4>
+						    </div>
+
+						  <div style="display: block; border-right: 1px solid gray;">
+								<h4>FULL TYPE</h4>
+								<h4>2017</h4>
+					       </div>
+
+					       <div style="display: block;">
+                                  <h4>REG STATE</h4>
+								  <h4>2017</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ---------------------------------------------------------- -->
+
+				<div style="display: block;">
+					<div class="car_img">
+						<img src="img/2.jpg" alt="">
+					</div>
+					<div class="gray_txt">
+						<h5>Rs.2375000.00</h5><br>
+						<h3>AUDI Q3 35TFSI PREMUIM PLUS</h3><br>
+						<h3>EMI STARTS @ Rs.0</h3>
+						<div style="display: flex; justify-content: space-between; margin: 5px;  gap: 15px;">
+							<div style="display: block; border-right: 1px solid gray;">
+                                  <h4>REG YEAR</h4>
+								  <h4>2017</h4>
+							</div>
+
+							<div style="display: block; border-right: 1px solid gray;">
+								<h4>KMS</h4>
+								<h4>2017</h4>
+						    </div>
+
+						  <div style="display: block; border-right: 1px solid gray;">
+								<h4>FULL TYPE</h4>
+								<h4>2017</h4>
+					       </div>
+
+					       <div style="display: block;">
+                                  <h4>REG STATE</h4>
+								  <h4>2017</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ---------------------------------------------------- -->
+
+				<div style="display: block;">
+					<div class="car_img">
+						<img src="img/2.jpg" alt="">
+					</div>
+					<div class="gray_txt">
+						<h5>Rs.2375000.00</h5><br>
+						<h3>AUDI Q3 35TFSI PREMUIM PLUS</h3><br>
+						<h3>EMI STARTS @ Rs.0</h3>
+						<div style="display: flex; justify-content: space-between; margin: 5px;  gap: 15px;">
+							<div style="display: block; border-right: 1px solid gray;">
+                                  <h4>REG YEAR</h4>
+								  <h4>2017</h4>
+							</div>
+
+							<div style="display: block; border-right: 1px solid gray;">
+								<h4>KMS</h4>
+								<h4>2017</h4>
+						    </div>
+
+						  <div style="display: block; border-right: 1px solid gray;">
+								<h4>FULL TYPE</h4>
+								<h4>2017</h4>
+					       </div>
+
+					       <div style="display: block;">
+                                  <h4>REG STATE</h4>
+								  <h4>2017</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>      
+			<!-- --------------------------------------------------------------------- -->
+
+			<div class="c_c1">
+				<div style="display: block;">
+					<div class="car_img">
+						<img src="img/2.jpg" alt="">
+					</div>
+					<div class="gray_txt">
+						<h5>Rs.2375000.00</h5><br>
+						<h3>AUDI Q3 35TFSI PREMUIM PLUS</h3><br>
+						<h3>EMI STARTS @ Rs.0</h3>
+						<div style="display: flex; justify-content: space-between; margin: 5px;  gap: 15px;">
+							<div style="display: block; border-right: 1px solid gray;">
+                                  <h4>REG YEAR</h4>
+								  <h4>2017</h4>
+							</div>
+
+							<div style="display: block; border-right: 1px solid gray;">
+								<h4>KMS</h4>
+								<h4>2017</h4>
+						    </div>
+
+						  <div style="display: block; border-right: 1px solid gray;">
+								<h4>FULL TYPE</h4>
+								<h4>2017</h4>
+					       </div>
+
+					       <div style="display: block;">
+                                  <h4>REG STATE</h4>
+								  <h4>2017</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ---------------------------------------------- -->
+
+				<div style="display: block;">
+					<div class="car_img">
+						<img src="img/2.jpg" alt="">
+					</div>
+					<div class="gray_txt">
+						<h5>Rs.2375000.00</h5><br>
+						<h3>AUDI Q3 35TFSI PREMUIM PLUS</h3><br>
+						<h3>EMI STARTS @ Rs.0</h3>
+						<div style="display: flex; justify-content: space-between; margin: 5px;  gap: 15px;">
+							<div style="display: block; border-right: 1px solid gray;">
+                                  <h4>REG YEAR</h4>
+								  <h4>2017</h4>
+							</div>
+
+							<div style="display: block; border-right: 1px solid gray;">
+								<h4>KMS</h4>
+								<h4>2017</h4>
+						    </div>
+
+						  <div style="display: block; border-right: 1px solid gray;">
+								<h4>FULL TYPE</h4>
+								<h4>2017</h4>
+					       </div>
+
+					       <div style="display: block;">
+                                  <h4>REG STATE</h4>
+								  <h4>2017</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ------------------------------------ -->
+
+				<div style="display: block;">
+					<div class="car_img">
+						<img src="img/2.jpg" alt="">
+					</div>
+					<div class="gray_txt">
+						<h5>Rs.2375000.00</h5><br>
+						<h3>AUDI Q3 35TFSI PREMUIM PLUS</h3><br>
+						<h3>EMI STARTS @ Rs.0</h3>
+						<div style="display: flex; justify-content: space-between; margin: 5px;  gap: 15px;">
+							<div style="display: block; border-right: 1px solid gray;">
+                                  <h4>REG YEAR</h4>
+								  <h4>2017</h4>
+							</div>
+
+							<div style="display: block; border-right: 1px solid gray;">
+								<h4>KMS</h4>
+								<h4>2017</h4>
+						    </div>
+
+						  <div style="display: block; border-right: 1px solid gray;">
+								<h4>FULL TYPE</h4>
+								<h4>2017</h4>
+					       </div>
+
+					       <div style="display: block;">
+                                  <h4>REG STATE</h4>
+								  <h4>2017</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>   
+			<!-- ---------------------------------------------------------------    -->
+			 <button class="show">SHOW MORE</button>
+        </div>
+
+<!-- ----------------- -->
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>The Car Mall World</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">General</a></li>
+                <li><a href="#">Wallpaper</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Finance & Insurance</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Team</h3>
+            <ul>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Associates</a></li>
+            </ul>
+        </div>
+        <div class="footer-section brands-section">
+            <h3>Brands</h3>
+            <div class="brands-container">
+                <ul>
+                    <li><a href="#">KIA</a></li>
+                    <li><a href="#">Aston Martin</a></li>
+                    <li><a href="#">Jeep</a></li>
+                    <li><a href="#">Ford</a></li>
+                    <li><a href="#">Skoda</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Toyota</a></li>
+                    <li><a href="#">Lexus</a></li>
+                    <li><a href="#">Land Rover</a></li>
+                    <li><a href="#">Mini</a></li>
+                    <li><a href="#">Mercedes Benz</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">BMW</a></li>
+                    <li><a href="#">Porsche</a></li>
+                    <li><a href="#">Volvo</a></li>
+                    <li><a href="#">Audi</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>17/10 Ground Floor, Old Rajinder Nagar</p>
+            <p>New Delhi, 110060, India</p>
+            <p>Email: <a href="mailto:thecarmall09@yahoo.in">thecarmall09@yahoo.in</a></p>
+            <p>Phone: <a href="tel:+917377788817">(+91) 7377788817</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 The Car Mall | <a href="#">Privacy Policy</a> | <a href="#">Cancellation & Refund</a> | <a href="#">Terms of Use</a> | Website Managed by SpettroVision</p>
+    </div>
+</footer>
+
+<script src="car_UI.js"></script>
+</body>
+</html>

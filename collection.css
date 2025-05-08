@@ -1,0 +1,46 @@
+.collection_container{
+    background-color: white;
+    height: 900px;
+    width: 100%;
+}
+.c_c1{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.show{
+    height: 50px;
+    width: 230px;
+    background-color: black;
+    color: white;   
+    margin-top: 50px;
+    margin-left: 40%;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: fantasy;
+    letter-spacing: 0cap;
+
+}
+.show:hover{
+    background-color: white;
+    color: black;
+}
+
+.car_img img{
+margin-left: 20px;
+height: 200px;
+width: 200px;
+}
+
+.gray_txt{
+    height: 200px;
+    width: 250px;
+    border-radius: 0 0 4px 4px;
+    background-color: rgb(228, 224, 224);
+    margin-bottom: -20px;
+}
+
+
